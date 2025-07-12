@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaMask Spending Request</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Запрос расходов средств</h1>
+    <form id="spendingForm">
+      <label for="amount">Сумма (ETH):</label>
+      <input type="text" id="amount" placeholder="Введите сумму">
+      <label for="recipient">Адрес получателя:</label>
+      <input type="text" id="recipient" placeholder="Введите адрес">
+      <button type="submit">Отправить запрос</button>
+    </form>
+    <p id="result"></p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
